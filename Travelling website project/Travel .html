@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Explore The World</title>
+  <link rel="stylesheet" href="Travel .css">
+  <!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img src="travel2 logo.webp" alt="Crown Icon" class="crown-icon">
+      <h1 id="king-travel">KING<span class="highlight">Travel</span></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="sign.html">Sign Up</a></li>
+        <li><a href="signin.html">Sign In</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search destinations...">
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+
+  <!-- Hero Section with Video Background -->
+  <section id="home" class="hero">
+    <!-- Video Backgrounds -->
+    <div class="video-background">
+      <video autoplay loop muted>
+        <source src="video3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="video-background">
+      <video autoplay loop muted>
+        <source src="hills.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="video-background">
+      <video autoplay loop muted>
+        <source src="video4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+
+    <div class="hero-content">
+      <h2>Discover Amazing Places</h2>
+      <p>Explore the most beautiful destinations around the world.</p>
+      <a href="#destinations" class="btn">Start Your Journey</a>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations" class="destinations">
+    <h2>Top Destinations</h2>
+    <div class="destination-list">
+      <!-- Paris -->
+<!-- Example for one destination -->
+   <div class="destination">
+    <img src="paris.jpg" alt="Paris">
+    <h3>Paris</h3>
+    <p>The city of love, Eiffel Tower, and great culture.</p>
+    
+    <!-- Add Price and Rating here -->
+    <div class="destination-price">
+        <span class="price">$180 per night</span>
+    </div>
+    <div class="destination-rating">
+        <span class="star-rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+            <i class="fa fa-star-o"></i>
+        </span>
+        <span class="rating-text">4.5/5</span>
+    </div>
+
+    <button class="view-details-btn">View Details</button>
+    <div class="destination-description">
+        <p>Paris, the capital city of France, is known for its rich history, culture, and iconic landmarks...</p>
+    </div>
+    
+
+  <!-- Book Now Button -->
+<button class="book-now-btn">Book Now</button>
+
+<!-- Hidden booking form or content -->
+<div class="booking-content">
+  <form>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" disabled value="Paris"> <!-- Automatically filled with destination name -->
+
+    <label for="num-people">Number of People:</label>
+    <input type="number" id="num-people" min="1" required>
+
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+
+    <label for="payment-method">Payment Method:</label>
+    <select id="payment-method" required>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="bank-transfer">Bank Transfer</option>
+    </select>
+
+    <label for="contact-name">Your Name:</label>
+    <input type="text" id="contact-name" required>
+
+    <label for="contact-phone">Your Phone Number:</label>
+    <input type="tel" id="contact-phone" required>
+
+   
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</div>
+
+</div>
+
+      <!-- Bali -->
+      <div class="destination">
+          <img src="bali.jpg" alt="Bali">
+          <h3>Bali</h3>
+          <p>Beautiful beaches and vibrant culture in Bali.</p>
+           <!-- Add Price and Rating here -->
+    <div class="destination-price">
+      <span class="price">$140 per night</span>
+  </div>
+  <div class="destination-rating">
+      <span class="star-rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+          <i class="fa fa-star-o"></i>
+      </span>
+      <span class="rating-text">3.9/5</span>
+  </div>
+          <button class="view-details-btn">View Details</button>
+          <div class="destination-description">
+              <p>Bali is an Indonesian island known for its beautiful beaches, coral reefs, and terraced rice paddies. It is a haven for beach lovers, surfers, and those seeking a tranquil retreat among lush landscapes.</p>
+          </div>
+        <!-- Book Now Button -->
+<button class="book-now-btn">Book Now</button>
+
+<!-- Hidden booking form or content -->
+<div class="booking-content">
+  <form>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" disabled value="Paris"> <!-- Automatically filled with destination name -->
+
+    <label for="num-people">Number of People:</label>
+    <input type="number" id="num-people" min="1" required>
+
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+
+    <label for="payment-method">Payment Method:</label>
+    <select id="payment-method" required>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="bank-transfer">Bank Transfer</option>
+    </select>
+
+    <label for="contact-name">Your Name:</label>
+    <input type="text" id="contact-name" required>
+
+    <label for="contact-phone">Your Phone Number:</label>
+    <input type="tel" id="contact-phone" required>
+
+    
+    <button type="submit">Confirm Booking</button>
+  </form>
+</div>
+
+   </div>
+      <!-- New York -->
+      <div class="destination">
+          <img src="New york.jpg" alt="New York">
+          <h3>New York</h3>
+          <p>The city that never sleeps. A place to explore culture, food, and art.</p>
+           <!-- Add Price and Rating here -->
+    <div class="destination-price">
+      <span class="price">$250 per night</span>
+  </div>
+  <div class="destination-rating">
+      <span class="star-rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+          <i class="fa fa-star-o"></i>
+      </span>
+      <span class="rating-text">4.8/5</span>
+  </div>
+          <button class="view-details-btn">View Details</button>
+          <div class="destination-description">
+              <p>New York City, the largest city in the United States, is a vibrant hub for culture, art, and food. From the Statue of Liberty to Times Square, there's always something happening in the city that never sleeps.</p>
+          </div>
+        <!-- Book Now Button -->
+<button class="book-now-btn">Book Now</button>
+
+<!-- Hidden booking form or content -->
+<div class="booking-content">
+  <form>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" disabled value="Paris"> <!-- Automatically filled with destination name -->
+
+    <label for="num-people">Number of People:</label>
+    <input type="number" id="num-people" min="1" required>
+
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+
+    <label for="payment-method">Payment Method:</label>
+    <select id="payment-method" required>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="bank-transfer">Bank Transfer</option>
+    </select>
+
+    <label for="contact-name">Your Name:</label>
+    <input type="text" id="contact-name" required>
+
+    <label for="contact-phone">Your Phone Number:</label>
+    <input type="tel" id="contact-phone" required>
+
+   
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</div>
+
+    </div>
+
+      <!-- Tokyo -->
+      <div class="destination">
+          <img src="tokyo.jpg" alt="Tokyo">
+          <h3>Tokyo</h3>
+          <p>Vibrant city blending tradition with modernity, famous for its food, culture, and technology.</p>
+           <!-- Add Price and Rating here -->
+    <div class="destination-price">
+      <span class="price">$200 per night</span>
+  </div>
+  <div class="destination-rating">
+      <span class="star-rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+          <i class="fa fa-star-o"></i>
+      </span>
+      <span class="rating-text">4.7/5</span>
+  </div>
+          <button class="view-details-btn">View Details</button>
+          <div class="destination-description">
+              <p>Tokyo is a bustling metropolis known for its skyscrapers, temples, and world-class cuisine. It's where ancient traditions meet cutting-edge technology, making it a dynamic and exciting place to visit.</p>
+          </div>
+        <!-- Book Now Button -->
+<button class="book-now-btn">Book Now</button>
+
+<!-- Hidden booking form or content -->
+<div class="booking-content">
+  <form>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" disabled value="Paris"> <!-- Automatically filled with destination name -->
+
+    <label for="num-people">Number of People:</label>
+    <input type="number" id="num-people" min="1" required>
+
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+
+    <label for="payment-method">Payment Method:</label>
+    <select id="payment-method" required>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="bank-transfer">Bank Transfer</option>
+    </select>
+
+    <label for="contact-name">Your Name:</label>
+    <input type="text" id="contact-name" required>
+
+    <label for="contact-phone">Your Phone Number:</label>
+    <input type="tel" id="contact-phone" required>
+
+   
+    <button type="submit">Confirm Booking</button>
+  </form>
+</div>
+
+   </div>
+      <!-- Sydney -->
+      <div class="destination">
+          <img src="sydney.jpg" alt="Sydney">
+          <h3>Sydney</h3>
+          <p>Stunning beaches, Opera House, and iconic harbor views.</p>
+           <!-- Add Price and Rating here -->
+    <div class="destination-price">
+      <span class="price">$170 per night</span>
+  </div>
+  <div class="destination-rating">
+      <span class="star-rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+          <i class="fa fa-star-o"></i>
+      </span>
+      <span class="rating-text">4.2/5</span>
+  </div>
+          <button class="view-details-btn">View Details</button>
+          <div class="destination-description">
+              <p>Sydney is a vibrant city in Australia, famous for its stunning beaches, the Sydney Opera House, and its picturesque harbor. A perfect destination for those who love outdoor activities, culture, and breathtaking scenery.</p>
+          </div>
+         <!-- Book Now Button -->
+<button class="book-now-btn">Book Now</button>
+
+<!-- Hidden booking form or content -->
+<div class="booking-content">
+  <form>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" disabled value="Paris"> <!-- Automatically filled with destination name -->
+
+    <label for="num-people">Number of People:</label>
+    <input type="number" id="num-people" min="1" required>
+
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+
+    <label for="payment-method">Payment Method:</label>
+    <select id="payment-method" required>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="bank-transfer">Bank Transfer</option>
+    </select>
+
+    <label for="contact-name">Your Name:</label>
+    <input type="text" id="contact-name" required>
+
+    <label for="contact-phone">Your Phone Number:</label>
+    <input type="tel" id="contact-phone" required>
+
+    <label for="special-requests">Special Requests:</label>
+    <textarea id="special-requests"></textarea>
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</div>
+
+    </div>
+      <!-- London -->
+      <div class="destination">
+          <img src="london.jpg" alt="London">
+          <h3>London</h3>
+          <p>The heart of history, famous landmarks, art, and fashion.</p>
+           <!-- Add Price and Rating here -->
+    <div class="destination-price">
+      <span class="price">$220 per night</span>
+  </div>
+  <div class="destination-rating">
+      <span class="star-rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i>
+          <i class="fa fa-star-o"></i>
+      </span>
+      <span class="rating-text">4.8/5</span>
+  </div>
+          <button class="view-details-btn">View Details</button>
+          <div class="destination-description">
+              <p>London is a global city known for its rich history and iconic landmarks like the Tower of London, Buckingham Palace, and the British Museum. It is a center for fashion, theater, and culture, offering something for every traveler.</p>
+          </div>
+      <!-- Book Now Button -->
+<button class="book-now-btn">Book Now</button>
+
+<!-- Hidden booking form or content -->
+<div class="booking-content">
+  <form>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" disabled value="Paris"> <!-- Automatically filled with destination name -->
+
+    <label for="num-people">Number of People:</label>
+    <input type="number" id="num-people" min="1" required>
+
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date" required>
+
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date" required>
+
+    <label for="payment-method">Payment Method:</label>
+    <select id="payment-method" required>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="bank-transfer">Bank Transfer</option>
+    </select>
+
+    <label for="contact-name">Your Name:</label>
+    <input type="text" id="contact-name" required>
+
+    <label for="contact-phone">Your Phone Number:</label>
+    <input type="tel" id="contact-phone" required>
+
+    <label for="special-requests">Special Requests:</label>
+    <textarea id="special-requests"></textarea>
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</div>
+</div>
+
+  <!-- Image Gallery Section -->
+<div id="gallery">
+  <h2>Explore Our Gallery</h2>
+  <div class="gallery-grid">
+    <img src="paris.jpg" alt="Paris Gallery" class="gallery-item">
+    <img src="New york.jpg" alt="New York Gallery" class="gallery-item">
+    <img src="london.jpg" alt="London Gallery" class="gallery-item">
+    <img src="Tokyo3.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="london2.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Tokyo2.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Sydney1.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Tokyo3.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="bali1.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Bali 2.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Sydney2.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Sydney.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Bali.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="Tokyo1.jpg" alt="Tokyo Gallery" class="gallery-item">
+    <img src="paris1.jpg" alt="Tokyo Gallery" class="gallery-item">
+    
+    <!-- Add more images as needed -->
+  </div>
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <!-- Footer Section -->
+<footer>
+  <div class="footer-container">
+    <ul class="social-media-icons">
+      <li><a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+    </ul>
+  </div>
+
+    <p>&copy; 2025 KINGTravels. All rights reserved.</p>
+  </footer>
+
+  <script src="Travel .js"></script>
+</body>
+</html>
