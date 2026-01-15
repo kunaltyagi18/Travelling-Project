@@ -22,8 +22,6 @@ Travelling-Project/
 ├── images/ # Images and assets
 └── README.md # Project documentation
 
-markdown
-Copy code
 
 ## ✨ Features
 - Responsive and clean UI  
